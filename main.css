@@ -1,17 +1,11 @@
 body, html {
-    height: 100%
+  background-image: url(https://mgcreativedesign.files.wordpress.com/2014/11/website-design-background.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  height: 100%
 }
 .bgimg {
-    /* Background image */
-    background-image: url(https://mgcreativedesign.files.wordpress.com/2014/11/website-design-background.png);
-    /* Full-screen */
-    height: 100%;
-    /* Center the background image */
-    background-position: center;
-    /* Scale and zoom in the image */
-    background-size: cover;
-    /* Add position: relative to enable absolutely positioned elements inside the image (place text) */
-    position: relative;
     /* Add a white text color to all elements inside the .bgimg container */
     color: white;
     /* Add a font */
