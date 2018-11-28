@@ -1,18 +1,95 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr" ng-app="My-Portfolio">
+<html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <title></title>
     <link rel="stylesheet" href="main.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.2/angular.min.js" charset="utf-8"></script>
-    <script src="app.js" charset="utf-8"></script>
-    <title>Stevie Burnette</title>
   </head>
   <body>
-    <div class="bgimg">
-    <div class="middle">
-      <h1>COMING SOON</h1>
-      <hr>
-  </div>
-</div>
+
+    <input id="menu-toggler" type="checkbox" />
+    <!-- navigation-->
+    <nav>
+        <div class="container hidemenu">
+            <ul class="main-nav">
+                <li><a href="#top">Home </a></li>
+                <li><a href="#about">About </a></li>
+                <li><a href="#portfolio">Portfolio </a></li>
+                <li><a href="#contact">Contact </a></li>
+            </ul>
+        </div>
+        <div class="container">
+            <div id="mobileMenuLink"><label class="main-nav" for="menu-toggler">Menu</label></div>
+        </div>
+    </nav>
+    <!-- main section-->
+    <div class="jumbotorn">
+        <div class="container">
+            <main>
+                <h1>Full Stack Web Developer</h1>
+                <p>I can create effective website for your business</p><a class="btn" href="#contact">Contact</a></main>
+        </div>
+    </div>
+    <!-- about section-->
+    <div class="about" id="about">
+        <div class="container"><img class="avatar" height="300" width="300" src="images/me2.jpg" />
+            <div class="about-text">
+                <h2>About Me</h2>
+                <p>My name is Stevie Burnette. I'm a full stack web developer based in Georgia.</p>
+                <p> I have an overwhelming passion for solving complex problems. Strong ability to view challenges as opportunities with a creative flair and an emphasis on usability. Proudly approaches programming like a chef, "coding" recipes from a place of creativity and technical instinct and motivated by the satisfaction of the hungry consumer.</p>
+                <p>Professional skillset:</p>
+                <p>HTML5, CSS3, Javascript, jQuery, Ruby on Rails, Bootstrap, Materialize, PHP, Angular.js, SQL, MongoDB, Node.js, React</p>
+                <p>Tools:</p>
+                <p>GitHub, Atom, Stack Overflow.</p>
+            </div>
+        </div>
+    </div>
+    <!--portfolio-->
+    <div class="portfolio" id="portfolio">
+        <div class="container">
+            <h2>My Portfolio</h2>
+            <p>Check out my work below:</p>
+            <div class="portfolio-flex">
+                <a class="project-box" href="https://secret-shelf-72666.herokuapp.com/sizzle" target="_blank">
+                    <div class="portfolio-img"><img src="images/sizzle.jpg" width="100%" /></div><br/>
+                    <h3>Sizzle</h3>
+                    <p>A user can sign up and post their favorite recipes.</p>
+                </a>
+                <a class="project-box" href="https://clueless-closet-group.herokuapp.com/" target="_blank">
+                    <div class="portfolio-img"><img src="images/clueless.jpg" width="100%" /></div><br/>
+                    <h3>Clueless Closet</h3>
+                    <p>A group project where a user can upload helpful ideas for a complete outfit ideas for other users.</p>
+                </a>
+                <a class="project-box" href="https://crazyanimal-memes.herokuapp.com/" target="_blank">
+                    <div class="portfolio-img"><img src="images/animal.png" width="100%" /></div><br/>
+                    <h3>Crazy Animal Memes</h3>
+                    <p>A group project using React, Ruby on Rails and SQL where the user can upload funny web developer animal memes and brighten others day.</p>
+                </a>
+        </div>
+    </div>
+    <!-- Contact-->
+    <div class="contact" id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>You can contact me on social networks</p><a href="https://github.com/DiamondB88" target="blank"><i class="fa fa-github-square fa-5x"></i></a><a href="https://www.linkedin.com/in/stevieburnette/" target="blank"><i class="fa fa-linkedin-square fa-5x"></i></a>
+            <a
+                href="https://www.facebook.com/Diamond1188?ref=bookmarks" target="bank"><i class="fa fa-facebook-square fa-5x"></i></a><a href="https://plus.google.com/u/0/100074505549000798497" target="_blank"><i class="fa fa-google-plus-square fa-5x"></i></a><a </a></div>
+    </div>
+    <!-- Footer-->
+    <footer>
+        <div class="container">
+            <ul>
+                <li><a href="#top">Home</a></li>
+                <li>|</li>
+                <li><a href="#about">About</a></li>
+                <li>|</li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li>|</li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <p><small>@ Copyright 2018, Stevie Burnette, All rights reserved.</small></p>
+        </div>
+    </footer>
+
   </body>
 </html>
